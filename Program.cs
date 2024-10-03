@@ -1,4 +1,5 @@
 ﻿using Excersize.Exercises;
+using Exercise.Exercises;
 using System;
 using System.Collections.Generic;
 
@@ -44,7 +45,7 @@ namespace Exersize1
     {
         static void Main(string[] args)
         {
-          
+
 
             /*
              * WeightSort
@@ -70,7 +71,9 @@ namespace Exersize1
             */
 
 
-
+            /*
+             * GradeStudent 
+             
             // Create a list of grades
             List<int> grades = new List<int> { 73, 67, 38, 33 };
 
@@ -83,6 +86,17 @@ namespace Exersize1
             {
                 Console.WriteLine(roundedGrade);
             }
+            */
+
+            List<int> alice = new List<int> { 4, 7 ,7 };
+            List<int> bob = new List<int> { 1, 7, 3 };
+
+            var compare = CompareTriplets.compareTriplets(alice, bob);
+
+            Console.WriteLine("Alice's Score: " + compare[0]);
+            Console.WriteLine("Bob's Score: " + compare[1]);
+
+
 
 
         }
