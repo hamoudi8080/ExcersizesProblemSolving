@@ -88,6 +88,11 @@ namespace Exersize1
             }
             */
 
+
+
+            /*
+             *  CompareTriplets
+             
             List<int> alice = new List<int> { 4, 7 ,7 };
             List<int> bob = new List<int> { 1, 7, 3 };
 
@@ -95,9 +100,22 @@ namespace Exersize1
 
             Console.WriteLine("Alice's Score: " + compare[0]);
             Console.WriteLine("Bob's Score: " + compare[1]);
+            */
 
 
 
+            // Example input
+            string input = "(123)";
+
+            // Create an instance of the Solution class and call the method
+            var solution =  AmbiguousCoordinates.AmbiguousCoordinatesFunction(input);
+        
+
+            // Print the result
+            foreach (var coordinate in solution)
+            {
+                Console.WriteLine(coordinate);
+            }
 
         }
     }
