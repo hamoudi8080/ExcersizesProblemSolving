@@ -103,6 +103,8 @@ namespace Exersize1
             */
 
 
+            /*
+             * AmbiguousCoordinates
 
             // Example input
             string input = "(123)";
@@ -116,6 +118,15 @@ namespace Exersize1
             {
                 Console.WriteLine(coordinate);
             }
+
+            */
+
+            
+            string sentence1 = "My name is Haley";
+            string sentence2 = "My Haley";
+             
+            bool result = Sentence_Similarity.AreSentencesSimilar(sentence1, sentence2);
+            Console.WriteLine(result);
 
         }
     }
