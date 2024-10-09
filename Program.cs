@@ -121,12 +121,26 @@ namespace Exersize1
 
             */
 
-            
+
+            /*
+             * Sentence_Similarity
             string sentence1 = "My name is Haley";
             string sentence2 = "My Haley";
              
             bool result = Sentence_Similarity.AreSentencesSimilar(sentence1, sentence2);
             Console.WriteLine(result);
+            */
+
+            int[] nums = { 1, 1, 2, 3};
+            var k = RemoveDuplicatessSolution.RemoveDuplicates(nums);
+
+            for (int i = 0; i < k; i++)
+            {
+                Console.Write(nums[i] + " ");
+            }
+
+
+
 
         }
     }
