@@ -2,6 +2,7 @@
 using Exercise.Exercises;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 
 namespace Exersize1
 {
@@ -131,6 +132,8 @@ namespace Exersize1
             Console.WriteLine(result);
             */
 
+            /*
+             * RemoveDuplicatessSolution
             int[] nums = { 1, 1, 2, 3};
             var k = RemoveDuplicatessSolution.RemoveDuplicates(nums);
 
@@ -138,9 +141,37 @@ namespace Exersize1
             {
                 Console.Write(nums[i] + " ");
             }
+            */
 
 
 
+            /*
+             * Multithreads
+             * https://stackify.com/c-threading-and-multithreading-a-guide-with-examples/
+             *  Multithreads.Multithreadss();
+             */
+
+
+            /*
+             * RemoveDuplicatess2Solution
+            int[] nums = { 1, 1,1,2, 2, 3 };
+            var k = RemoveDuplicatess2Solution.RemoveDuplicates(nums);
+
+            for (int i = 0; i < k; i++)
+            {
+                Console.Write(nums[i] + " ");
+            }
+            */
+
+
+
+
+
+            int[] nums = { 2, 2, 1, 1, 1, 3, 3, 3, 3, 3 };
+
+            int majority=  MajorityElementSolution.MajorityElement(nums);
+            
+            Console.WriteLine("The majority element is: " + majority);
 
         }
     }
