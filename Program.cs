@@ -165,14 +165,29 @@ namespace Exersize1
 
 
 
-
+            /*
+             * MajorityElementSolution
 
             int[] nums = { 2, 2, 1, 1, 1, 3, 3, 3, 3, 3 };
 
             int majority=  MajorityElementSolution.MajorityElement(nums);
             
             Console.WriteLine("The majority element is: " + majority);
+            */
 
+
+
+
+        
+
+            int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
+
+            int k = 3;
+
+            int[] rotatedArray = RotateSolution.Rotate(nums, k);
+
+            // Print the result
+            Console.WriteLine(string.Join(", ", rotatedArray));
         }
     }
 
