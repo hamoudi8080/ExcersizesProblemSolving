@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise.Exercises
+namespace Exercise.ConceptsExercises
 {
 
     public class Multithreads

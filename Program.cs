@@ -178,8 +178,9 @@ namespace Exersize1
 
 
 
-        
 
+            /*
+             * RotateSolution
             int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
 
             int k = 3;
@@ -188,6 +189,12 @@ namespace Exersize1
 
             // Print the result
             Console.WriteLine(string.Join(", ", rotatedArray));
+            */
+
+            int[] nums = [7, 1, 5, 3, 6, 4];
+            int result = MaxProfitSolution.MaxProfit(nums);
+            Console.WriteLine(result);
+
         }
     }
 
