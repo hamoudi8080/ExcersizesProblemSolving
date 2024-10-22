@@ -74,7 +74,7 @@ namespace Exersize1
 
             /*
              * GradeStudent 
-             
+
             // Create a list of grades
             List<int> grades = new List<int> { 73, 67, 38, 33 };
 
@@ -93,7 +93,7 @@ namespace Exersize1
 
             /*
              *  CompareTriplets
-             
+
             List<int> alice = new List<int> { 4, 7 ,7 };
             List<int> bob = new List<int> { 1, 7, 3 };
 
@@ -112,7 +112,7 @@ namespace Exersize1
 
             // Create an instance of the Solution class and call the method
             var solution =  AmbiguousCoordinates.AmbiguousCoordinatesFunction(input);
-        
+
 
             // Print the result
             foreach (var coordinate in solution)
@@ -127,7 +127,7 @@ namespace Exersize1
              * Sentence_Similarity
             string sentence1 = "My name is Haley";
             string sentence2 = "My Haley";
-             
+
             bool result = Sentence_Similarity.AreSentencesSimilar(sentence1, sentence2);
             Console.WriteLine(result);
             */
@@ -171,7 +171,7 @@ namespace Exersize1
             int[] nums = { 2, 2, 1, 1, 1, 3, 3, 3, 3, 3 };
 
             int majority=  MajorityElementSolution.MajorityElement(nums);
-            
+
             Console.WriteLine("The majority element is: " + majority);
             */
 
@@ -191,9 +191,25 @@ namespace Exersize1
             Console.WriteLine(string.Join(", ", rotatedArray));
             */
 
+            /*
             int[] nums = [7, 1, 5, 3, 6, 4];
             int result = MaxProfitSolution.MaxProfit(nums);
             Console.WriteLine(result);
+            */
+
+            /*
+             * MaxProfitSolution2
+            int[] nums = [7, 1, 5, 3, 6, 4];
+            int result = MaxProfitSolution2.MaxProfit(nums);
+            Console.WriteLine(result);
+            */
+
+            int[] nums = [3, 2, 1, 0, 4];
+
+            bool result = JumpGameSolution.CanJump(nums);
+            Console.WriteLine(result);
+
+
 
         }
     }
