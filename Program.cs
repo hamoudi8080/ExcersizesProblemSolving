@@ -204,10 +204,18 @@ namespace Exersize1
             Console.WriteLine(result);
             */
 
+
+            /*
             int[] nums = [3, 2, 1, 0, 4];
 
             bool result = JumpGameSolution.CanJump(nums);
             Console.WriteLine(result);
+            */
+
+            int[] nums = [2, 7, 11, 15];
+            int target = 26;
+            var result = TwoSumSolution.TwoSum(nums, target);
+            Console.WriteLine(result[0] + " " + result[1]);
 
 
 
