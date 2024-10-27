@@ -212,10 +212,34 @@ namespace Exersize1
             Console.WriteLine(result);
             */
 
+            /*
+             * TwoSumSolution
             int[] nums = [2, 7, 11, 15];
             int target = 26;
             var result = TwoSumSolution.TwoSum(nums, target);
             Console.WriteLine(result[0] + " " + result[1]);
+            */
+
+            // Initialize l1: [2, 4, 3]
+            ListNode l1 = new ListNode(2);
+            l1.next = new ListNode(4);
+            l1.next.next = new ListNode(3);
+
+            // Initialize l2: [5, 6, 4]
+            ListNode l2 = new ListNode(5);
+            l2.next = new ListNode(6);
+            l2.next.next = new ListNode(4);
+
+            ListNode result = AddTwoNumbersSolution.AddTwoNumbers(l1, l2);
+
+
+            // Print the result
+            while (result != null)
+            {
+                Console.Write(result.val + " ");
+                result = result.next;
+
+            }
 
 
 
