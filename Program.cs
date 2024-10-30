@@ -220,6 +220,8 @@ namespace Exersize1
             Console.WriteLine(result[0] + " " + result[1]);
             */
 
+            /*
+             * LengthOfLongestSubstringSolution
             // Initialize l1: [2, 4, 3]
             ListNode l1 = new ListNode(2);
             l1.next = new ListNode(4);
@@ -240,7 +242,12 @@ namespace Exersize1
                 result = result.next;
 
             }
+            */
 
+
+            string s = "abcabcbb";
+            int result = LengthOfLongestSubstringSolution.LengthOfLongestSubstring(s);
+            Console.WriteLine(result);
 
 
         }
